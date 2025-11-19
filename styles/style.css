@@ -35,15 +35,15 @@ p {
     color: #FFFFFF;
 }
 
-.footerCopyright {
+.footer-copyright {
     color: #8C0510;
 }
 
-.footerLabel {
+.footer-label {
     color: #FFFFFF;
 }
 
-input[placeholder]{
+input[placeholder] {
     font-family: Arial, sans-serif;
 }
 
@@ -57,55 +57,55 @@ a {
     text-decoration: none;
 }
 
-.currentPage {
+.current-page {
     color:#000000;
 }
 
-.landingText {
+.landing-text {
     text-align: justify;
 }
 
-.finalText {
+.final-text {
     margin-top: 20px;
     text-align: center;
     margin-bottom: 0px;
 }
 
-.newsLeftDates {
+.news-dates-left {
     text-align: left;
 }
 
-.newsRightTitles {
+.news-titles-right {
     text-align: right;
 }
 
-.newsRightText {
+.news-text-right {
     display: flex;
     align-items: center;
     text-align: right;
     grid-area: text;
 }
 
-.newsLeftTitles {
+.news-titles-left {
     text-align: left;
 }
 
-.newsRightDates {
+.news-dates-right {
     text-align: right;
 }
 
-.newsLeftText {
+.news-text-left {
     display: flex;
     align-items: center;
     text-align: left;
     grid-area: text;
 }
 
-.aucSubheadings {
+.auc-subheadings {
     text-align: center;
 }
 
-.aucText {
+.auc-text {
     text-align: justify;
     margin-bottom: 50px;
 }
@@ -118,7 +118,7 @@ header {
     border-bottom: 1px solid #8C0510;
 }
 
-.headerLogo {
+.header-logo {
     width: 100px;
 }
 
@@ -138,7 +138,7 @@ footer {
     margin-top: 13px;
 }
 
-.landingHeroImage {
+.landing-hero-image {
     width: 100%;
 }
 
@@ -156,37 +156,37 @@ footer {
     align-items: center;
 }
 
-.catalogueCarsFront img {
+.catalogue-cars-front img {
     width: 333px;
     height: 249.75px;
 }
 
-.catalogueCarsRear img {
+.catalogue-cars-rear img {
     width: 56px;
     height: 249.75px;
 }
 
-.catalogueCarsImages figure img {
+.catalogue-cars-images figure img {
     border-radius: 32px;
 }
 
-.catalogueCarsImages {
+.catalogue-cars-images {
     display: flex;
     flex-direction: row;
     gap: 8px;
 }
 
 /* News */
-.newsHeadings {
+.news-headings {
     display: flex;
     justify-content: space-between;
 }
 
-.newsHeadings h3 {
+.news-headings h3 {
     margin-bottom: 0;
 }
 
-.newsContentLeft {
+.news-content-left {
     border: 1px solid #8C0510;
     margin-bottom: 50px;
     display: grid;
@@ -197,12 +197,12 @@ footer {
     gap: 0px;
 }
 
-.newsPictures img {
+.news-pictures img {
     width: 100%;
     grid-area: image;
 }
 
-.newsContentRight {
+.news-content-right {
     border: 1px solid #8C0510;
     margin-bottom: 50px;
     display: grid;
@@ -219,50 +219,50 @@ footer {
     text-align: center;
 }
 
-.updatesImagesGrid figure img {
+.updates-images-grid figure img {
     width: 100%;
 }
 
-.updatesGTAImage img {
+.updates-gta-image img {
     width: 100%;
     border: 1px solid #8C0510;
 }
 
-.updatesImagesGrid {
+.updates-images-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 0px;
     grid-template-areas:
-        "topLeft topRight"
-        "bottomLeft bottomRight";
+        "top-left top-right"
+        "bottom-left bottom-right";
     margin-bottom: 50px;
     border: 1px solid #8C0510;
 }
 
-.updatesTopLeftImages {
-    grid-area: topLeft;
+.updates-images-top-left {
+    grid-area: top-left;
 }
 
-.updatesTopRightImages {
-    grid-area: topRight;
+.updates-images-top-right {
+    grid-area: top-right;
 }
 
-.updatesBottomLeftImages {
-    grid-area: bottomLeft;
+.updates-images-bottom-left {
+    grid-area: bottom-left;
 }
 
-.updatesBottomRightImages {
-    grid-area: bottomRight;
+.updates-images-bottom-right {
+    grid-area: bottom-right;
 }
 
 /* About us & contact */
-.aucLogo {
+.auc-logo {
     display: flex;
     justify-content: center;
 }
 
-.aucVisuals {
+.auc-visuals {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
@@ -273,33 +273,33 @@ footer {
     margin-bottom: 15px;
 }
 
-.aucPicture {
+.auc-picture {
     grid-area: image;
     height: 100%;
 }
 
-.aucPicture img {
+.auc-picture img {
     width: 100%;
     display: block;
 }
 
-.aucMap {
+.auc-map {
     grid-area: map;
     height: 100%;
 }
 
-.aucMap iframe {
+.auc-map iframe {
     width: 100%;
     height: 100%;
     display: block;
 }
 
-.aucFormContainer {
+.auc-form-container {
     display: flex;
     justify-content: center;
 }
 
-.aucForm {
+.auc-form {
     display: flex;
     border: 1px solid #8C0510;
     padding: 24px;
@@ -308,19 +308,19 @@ footer {
     align-content: center;
 }
 
-.aucForm label {
+.auc-form label {
     margin-bottom: 8px;
 }
 
-.aucForm input {
+.auc-form input {
     margin-bottom: 24px;
 }
 
-.aucForm textarea {
+.auc-form textarea {
     margin-bottom: 24px;
 }
 
-.submitButton {
+.submit-button {
     background-color: #8C0510;
     color: #FFFFFF;
 }
