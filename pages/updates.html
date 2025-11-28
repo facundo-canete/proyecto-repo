@@ -12,75 +12,25 @@
     </head>
     <body>
         <header>
-            <section> <!-- Primera sección del header: logo con link -->
-                <a href="../index.html">
-                    <figure class="header-logo">
+            <nav class="navbar navbar-expand-lg p-0">
+                <div class="container-fluid p-0">
+                    <a class="navbar-brand" href="#">
                         <img src="../assets/general/Legendary Motorsport logo.png" alt="Legendary Motorsport logo">
-                    </figure>
-                </a>
-            </section>
-            <section> <!-- Segunda sección del header: barra de navegación -->
-                <nav>
-                    <div class="header-mobile">
-                        <ul>
-                            <li>
-                                <a href="../index.html">
-                                    <figure class="navbar-icons">
-                                        <img src="../assets/general/home-logo.png" alt="Home logo">
-                                    </figure>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../pages/catalogue.html">
-                                    <figure class="navbar-icons">
-                                        <img src="../assets/general/catalogue-logo.png" alt="Catalogue logo">
-                                    </figure>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../pages/news.html">
-                                    <figure class="navbar-icons">
-                                        <img src="../assets/general/news-logo.png" alt="News logo">
-                                    </figure>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <figure class="navbar-icons">
-                                        <img src="../assets/general/updates-current-page.png" alt="Updates logo">
-                                    </figure>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="../pages/auC.html">
-                                    <figure class="navbar-icons">
-                                        <img src="../assets/general/auC-logo.png" alt="About us & contact logo">
-                                    </figure>
-                                </a>
-                            </li>
-                        </ul>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ms-auto">
+                            <a class="nav-link" href="../index.html">Home</a>
+                            <a class="nav-link" aria-current="page" href="../pages/catalogue.html">Catalogue</a>
+                            <a class="nav-link" aria-current="page" href="../pages/news.html">News</a>
+                            <a class="nav-link active" aria-current="page" href="#">Updates</a>
+                            <a class="nav-link" href="../pages/auC.html">About us & contact</a>
+                        </div>
                     </div>
-                    <div class="header-desktop">
-                        <ul>
-                            <li>
-                                <a href="../index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="../pages/catalogue.html">Catalogue</a>
-                            </li>
-                            <li>
-                                <a href="../pages/news.html">News</a>
-                            </li>
-                            <li>
-                                <a href="#" class="desktop-current-page">Updates</a>
-                            </li>
-                            <li>
-                                <a href="../pages/auC.html">About us & contact</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </section>
+                </div>
+            </nav>
         </header>
 
         <main>
@@ -128,7 +78,7 @@
                 </article>
             </section>
             <section> <!-- Segunda sección: texto final -->
-                <h3 class="final-text">Do you think we're missing something? Leave us a message in the <a href="../pages/auC.html#contact" class="final-text-buttons">About us & contact</a> page!</h3>
+                <h3 class="final-text">Do you think we're missing something? Leave us a message in the <a href="../pages/auC.html#contact" class="button">About us & contact</a> page!</h3>
             </section>
         </main>
 
