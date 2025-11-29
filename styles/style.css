@@ -73,7 +73,11 @@ footer {
     font-size: 90%;
 }
 
-.footer-label {
+.footer-copyright:hover {
+    cursor: default;
+}
+
+.form-label {
     color: #FFFFFF;
 }
 
@@ -434,15 +438,16 @@ figure {
     }
 
     .footer-form {
-        display: initial;
+        flex-direction: row;
     }
 
     .footer-copyright {
         font-size: initial;
     }
 
-    .footer-label {
+    .form-label {
         margin-right: 8px;
+        margin-bottom: 0;
     }
 
     h1 {
@@ -455,10 +460,6 @@ figure {
 
     p {
         font-size: 1em;
-    }
-
-    .button:not(.nav-link) {
-        padding-top: 0;
     }
 
     .final-text {
