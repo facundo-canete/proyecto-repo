@@ -43,6 +43,11 @@ html {
                 font-size: 14px;
             }
         }
+
+        .form-control:focus {
+            border-color: #FF0000;
+            box-shadow: 0 0 0 .25rem rgba($color: #FF0000, $alpha: .25);
+        }
     }
 }
 
@@ -58,20 +63,26 @@ html {
     html {
         margin: 10px 10px 0;
 
-        h1 {
-            font-size: variables.$desktop-headings-size;
-        }
+        body {
 
-        h3 {
-            font-size: variables.$desktop-subheadings-size;
-        }
+            main {
+                
+                h1 {
+                    font-size: variables.$desktop-headings-size;
+                }
 
-        p {
-            font-size: variables.$desktop-text-size;
-        }
+                h3 {
+                    font-size: variables.$desktop-subheadings-size;
+                }
 
-        .final-text {
-            font-size: 1.17em;
+                p {
+                    font-size: variables.$desktop-text-size;
+                }
+
+                .final-text {
+                    font-size: 1.17em;
+                }
+            }
         }
     }
 }

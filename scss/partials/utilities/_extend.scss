@@ -4,6 +4,12 @@
     background-color: variables.$accent-color;
     color: variables.$text-color;
     text-decoration: none;
+    border-radius: 0.25rem;
+    transition: color 0.15s ease-in-out;
+
+    &:hover {
+        color: variables.$bg-color;
+    }
 }
 
 %nav-links {

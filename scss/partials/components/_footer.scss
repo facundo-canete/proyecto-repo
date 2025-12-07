@@ -23,8 +23,8 @@ footer {
         }
 
         .footer-form {
-        @include mixins.flex (column, center);
-        gap: 10px;
+            @include mixins.flex (column, center);
+            gap: 10px;
         }
     }
 }

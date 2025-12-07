@@ -43,6 +43,10 @@ html body main .final-text {
   text-align: center;
   font-size: 14px;
 }
+html body .form-control:focus {
+  border-color: #FF0000;
+  box-shadow: 0 0 0 0.25rem rgba(255, 0, 0, 0.25);
+}
 
 @media (min-width: 768px) {
   html {
@@ -53,23 +57,28 @@ html body main .final-text {
   html {
     margin: 10px 10px 0;
   }
-  html h1 {
+  html body main h1 {
     font-size: 2em;
   }
-  html h3 {
+  html body main h3 {
     font-size: 1.17em;
   }
-  html p {
+  html body main p {
     font-size: 1em;
   }
-  html .final-text {
+  html body main .final-text {
     font-size: 1.17em;
   }
 }
-.btn {
+.button, .form-button {
   background-color: #8C0510;
   color: #FFFFFF;
   text-decoration: none;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out;
+}
+.button:hover, .form-button:hover {
+  color: #000000;
 }
 
 .nav-link, .last-nav-link {
@@ -92,12 +101,17 @@ html body main .final-text {
   gap: 0;
 }
 
-.btn {
+.button {
   padding: 0 0 0 0;
 }
 
 .last-nav-link {
   padding-bottom: 8px;
+}
+
+.form-button {
+  padding: 6px 12px;
+  border: 0;
 }
 
 header {

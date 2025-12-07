@@ -1,7 +1,7 @@
 @use '../utilities/variables';
 @use '../utilities/extend';
 
-.btn {
+.button {
     @extend %buttons;
     padding: 0 0 0 0;
 }
@@ -13,4 +13,10 @@
 .last-nav-link {
     @extend %nav-links;
     padding-bottom: 8px;
+}
+
+.form-button {
+    @extend %buttons;
+    padding: 6px 12px;
+    border: 0;
 }
